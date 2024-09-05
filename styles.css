@@ -50,22 +50,90 @@ section {
 }
 
 
-.intro {
-    display: flex; /* Use Flexbox to align items */
-    align-items: center; /* Vertically center items */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
 }
 
-.profile-image {
-    max-width: 150px; /* Adjust size as needed */
-    height: auto;     /* Maintain aspect ratio */
-    border-radius: 50%; /* Circular image */
-    margin-right: 20px; /* Space between image and text */
+
+.img-fixed {
+    width: 300px;
+    height: 200px;
 }
 
-.intro-text {
-    max-width: 600px; /* Optional: Control text width */
+
+.img-responsive {
+    max-width: 100%;
+    height: auto;
 }
 
+
+.img-rounded {
+    border-radius: 15px;
+}
+
+
+.img-circle {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+
+.img-border {
+    border: 5px solid #333;
+    border-radius: 10px;
+}
+
+
+.img-center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.img-left {
+    float: left;
+    margin-right: 15px;
+}
+
+
+
+.flex-container {
+    display: flex;
+    align-items: center;
+}
+
+.flex-container img {
+    margin-right: 20px;
+}
+
+
+.img-hover {
+    transition: transform 0.3s ease;
+}
+
+.img-hover:hover {
+    transform: scale(1.1);
+}
+
+
+.aspect-ratio {
+    position: relative;
+    width: 100%;
+    padding-top: 56.25%;
+}
+
+.aspect-ratio img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
 
 footer {
     margin-top: 20px;
