@@ -68,22 +68,6 @@ img {
     display: block;
 }
 
-
-.img-fixed {
-    width: 300px;
-    height: 200px;
-}
-
-.img-responsive {
-    max-width: 100%;
-    height: auto;
-}
-
-.img-rounded {
-    border-radius: 15px;
-}
-
-
 .img-circle {
     border-radius: 50%;
     width: 150px;
@@ -103,27 +87,6 @@ img {
     margin-right: auto;
 }
 
-
-.img-left {
-    float: left;
-    margin-right: 15px;
-}
-
-.img-right {
-    float: right;
-    margin-left: 15px;
-}
-
-
-.flex-container {
-    display: flex;
-    align-items: center;
-}
-
-.flex-container img {
-    margin-right: 20px;
-}
-
 .img-hover {
     transition: transform 0.3s ease;
 }
@@ -132,18 +95,3 @@ img {
     transform: scale(1.1);
 }
 
-
-.aspect-ratio {
-    position: relative;
-    width: 100%;
-    padding-top: 56.25%;
-}
-
-.aspect-ratio img {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
