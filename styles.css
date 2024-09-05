@@ -71,7 +71,7 @@ img {
 
 
 .img-circle {
-    border-radius: 50%;
+    border-radius: 100%;
     width: 150px;
     height: 150px;
 }
@@ -95,16 +95,6 @@ img {
     margin-right: 15px;
 }
 
-
-
-.flex-container {
-    display: flex;
-    align-items: center;
-}
-
-.flex-container img {
-    margin-right: 20px;
-}
 
 
 .img-hover {
