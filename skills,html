@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skills</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #333;
+        }
+        .skill-list {
+            list-style-type: disc;
+            margin: 0;
+            padding-left: 20px;
+        }
+        .skill-list li {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Skills</h1>
+
+        <ul class="skill-list">
+            <li><strong>Python:</strong> Experienced in data analysis.</li>
+            <li><strong>HTML/CSS:</strong> Advanced skills in creating responsive and accessible web designs.</li>
+            <li><strong>Data Visualization:</strong> Expertise in using tools like Matplotlib to create informative charts and graphs.</li>
+            <li><strong>SQL:</strong> Skilled in querying and managing relational databases.</li>
+            <li><strong>Remote Sensing:</strong> Familiar with techniques and technologies for collecting and analyzing remote sensing data.</li>
+            <li><strong>R Language:</strong> Proficient in statistical analysis and data visualization using R.</li>
+        </ul>
+
+        <footer>
+            <p>If you have any questions about my skills or experience, feel free to contact me!</p>
+        </footer>
+    </div>
+</body>
+</html>
